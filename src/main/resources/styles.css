@@ -1,0 +1,41 @@
+.root {
+    -fx-font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    -fx-font-size: 13px;
+    -fx-base: #f4f5f7;
+}
+
+.section-title {
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-text-fill: #2c3e50;
+}
+
+.status-bar {
+    -fx-background-color: #e8eaed;
+    -fx-padding: 4 10 4 10;
+    -fx-border-color: transparent #d0d3d8 #d0d3d8 #d0d3d8;
+}
+
+.status-bar .label {
+    -fx-text-fill: #444;
+}
+
+/* Monospaced editors for SQL and DDL */
+.sql-editor {
+    -fx-font-family: "Consolas", "Menlo", "Courier New", monospace;
+    -fx-font-size: 13px;
+}
+
+/* NULL cells render dimmed and italic so they read differently from "" */
+.null-cell {
+    -fx-text-fill: #9aa0a6;
+    -fx-font-style: italic;
+}
+
+.table-view {
+    -fx-font-size: 12.5px;
+}
+
+.tree-view {
+    -fx-font-size: 13px;
+}
